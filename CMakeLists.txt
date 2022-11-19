@@ -12,7 +12,7 @@ set(SOURCE_DIR "source/backend")
 include_directories(${SOURCE_DIR})
 
 set(SOURCES 
-
+  "${SOURCE_DIR}/kernels.cu"
 )
 
 if(${CUDA_ERROR_CHECK} MATCHES "True")
