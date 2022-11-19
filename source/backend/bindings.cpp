@@ -10,4 +10,6 @@ namespace py = pybind11;
 PYBIND11_MODULE(source_C, m) 
 {
   m.doc() = "Documentation for the source_C module";
+
+  m.def("poisson_logpmf", [](py::array_t<
 }
