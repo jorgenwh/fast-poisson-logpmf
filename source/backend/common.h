@@ -5,7 +5,7 @@
 #include <cuda_runtime.h>
 
 #define THREAD_BLOCK_SIZE 128
-#define NUM_STREAMS 10
+#define NUM_STREAMS 1
 
 #define cuda_errchk(err) { cuda_errcheck(err, __FILE__, __LINE__); }
 
